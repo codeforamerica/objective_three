@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794A7CE6159F99510081B592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A7CE5159F99510081B592 /* Foundation.framework */; };
+		794A7CEB159F99510081B592 /* Three.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 794A7CEA159F99510081B592 /* Three.h */; };
+		794A7CED159F99510081B592 /* Three.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A7CEC159F99510081B592 /* Three.m */; };
+		794A7CF5159F99510081B592 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A7CF4159F99510081B592 /* SenTestingKit.framework */; };
+		794A7CF8159F99510081B592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A7CE5159F99510081B592 /* Foundation.framework */; };
+		794A7CFB159F99510081B592 /* libThree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A7CE2159F99510081B592 /* libThree.a */; };
+		794A7D01159F99510081B592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 794A7CFF159F99510081B592 /* InfoPlist.strings */; };
+		794A7D04159F99510081B592 /* ThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A7D03159F99510081B592 /* ThreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794A7CF9159F99510081B592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794A7CD9159F99500081B592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794A7CE1159F99510081B592;
+			remoteInfo = Three;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		794A7CE0159F99510081B592 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				794A7CEB159F99510081B592 /* Three.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		794A7CE2159F99510081B592 /* libThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		794A7CE5159F99510081B592 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		794A7CE9159F99510081B592 /* Three-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three-Prefix.pch"; sourceTree = "<group>"; };
+		794A7CEA159F99510081B592 /* Three.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three.h; sourceTree = "<group>"; };
+		794A7CEC159F99510081B592 /* Three.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three.m; sourceTree = "<group>"; };
+		794A7CF3159F99510081B592 /* ThreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794A7CF4159F99510081B592 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		794A7CF6159F99510081B592 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		794A7CFE159F99510081B592 /* ThreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeTests-Info.plist"; sourceTree = "<group>"; };
+		794A7D00159F99510081B592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		794A7D02159F99510081B592 /* ThreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeTests.h; sourceTree = "<group>"; };
+		794A7D03159F99510081B592 /* ThreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTests.m; sourceTree = "<group>"; };
+		798D87FF15A0087100B08993 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794A7CDF159F99510081B592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A7CE6159F99510081B592 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A7CEF159F99510081B592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A7CF5159F99510081B592 /* SenTestingKit.framework in Frameworks */,
+				794A7CF8159F99510081B592 /* Foundation.framework in Frameworks */,
+				794A7CFB159F99510081B592 /* libThree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794A7CD7159F99500081B592 = {
+			isa = PBXGroup;
+			children = (
+				798D87FF15A0087100B08993 /* README.md */,
+				794A7CE7159F99510081B592 /* Three */,
+				794A7CFC159F99510081B592 /* ThreeTests */,
+				794A7CE4159F99510081B592 /* Frameworks */,
+				794A7CE3159F99510081B592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794A7CE3159F99510081B592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794A7CE2159F99510081B592 /* libThree.a */,
+				794A7CF3159F99510081B592 /* ThreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794A7CE4159F99510081B592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				794A7CE5159F99510081B592 /* Foundation.framework */,
+				794A7CF4159F99510081B592 /* SenTestingKit.framework */,
+				794A7CF6159F99510081B592 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		794A7CE7159F99510081B592 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				794A7CEA159F99510081B592 /* Three.h */,
+				794A7CEC159F99510081B592 /* Three.m */,
+				794A7CE8159F99510081B592 /* Supporting Files */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		794A7CE8159F99510081B592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794A7CE9159F99510081B592 /* Three-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		794A7CFC159F99510081B592 /* ThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				794A7D02159F99510081B592 /* ThreeTests.h */,
+				794A7D03159F99510081B592 /* ThreeTests.m */,
+				794A7CFD159F99510081B592 /* Supporting Files */,
+			);
+			path = ThreeTests;
+			sourceTree = "<group>";
+		};
+		794A7CFD159F99510081B592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794A7CFE159F99510081B592 /* ThreeTests-Info.plist */,
+				794A7CFF159F99510081B592 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794A7CE1159F99510081B592 /* Three */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794A7D07159F99510081B592 /* Build configuration list for PBXNativeTarget "Three" */;
+			buildPhases = (
+				794A7CDE159F99510081B592 /* Sources */,
+				794A7CDF159F99510081B592 /* Frameworks */,
+				794A7CE0159F99510081B592 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three;
+			productName = Three;
+			productReference = 794A7CE2159F99510081B592 /* libThree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		794A7CF2159F99510081B592 /* ThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794A7D0A159F99510081B592 /* Build configuration list for PBXNativeTarget "ThreeTests" */;
+			buildPhases = (
+				794A7CEE159F99510081B592 /* Sources */,
+				794A7CEF159F99510081B592 /* Frameworks */,
+				794A7CF0159F99510081B592 /* Resources */,
+				794A7CF1159F99510081B592 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794A7CFA159F99510081B592 /* PBXTargetDependency */,
+			);
+			name = ThreeTests;
+			productName = ThreeTests;
+			productReference = 794A7CF3159F99510081B592 /* ThreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794A7CD9159F99500081B592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Zach Williams";
+			};
+			buildConfigurationList = 794A7CDC159F99500081B592 /* Build configuration list for PBXProject "Three" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 794A7CD7159F99500081B592;
+			productRefGroup = 794A7CE3159F99510081B592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794A7CE1159F99510081B592 /* Three */,
+				794A7CF2159F99510081B592 /* ThreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794A7CF0159F99510081B592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A7D01159F99510081B592 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		794A7CF1159F99510081B592 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794A7CDE159F99510081B592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A7CED159F99510081B592 /* Three.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A7CEE159F99510081B592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A7D04159F99510081B592 /* ThreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794A7CFA159F99510081B592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794A7CE1159F99510081B592 /* Three */;
+			targetProxy = 794A7CF9159F99510081B592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794A7CFF159F99510081B592 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794A7D00159F99510081B592 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794A7D05159F99510081B592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		794A7D06159F99510081B592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794A7D08159F99510081B592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Three.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three/Three-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		794A7D09159F99510081B592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Three.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three/Three-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		794A7D0B159F99510081B592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three/Three-Prefix.pch";
+				INFOPLIST_FILE = "ThreeTests/ThreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		794A7D0C159F99510081B592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three/Three-Prefix.pch";
+				INFOPLIST_FILE = "ThreeTests/ThreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794A7CDC159F99500081B592 /* Build configuration list for PBXProject "Three" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A7D05159F99510081B592 /* Debug */,
+				794A7D06159F99510081B592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794A7D07159F99510081B592 /* Build configuration list for PBXNativeTarget "Three" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A7D08159F99510081B592 /* Debug */,
+				794A7D09159F99510081B592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794A7D0A159F99510081B592 /* Build configuration list for PBXNativeTarget "ThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A7D0B159F99510081B592 /* Debug */,
+				794A7D0C159F99510081B592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794A7CD9159F99500081B592 /* Project object */;
+}
