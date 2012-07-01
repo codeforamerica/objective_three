@@ -11,7 +11,6 @@
 
 @implementation Three
 
-// Custom init
 - (id)initWithCity:(NSString *)city
 {
     self = [super init];
@@ -27,9 +26,9 @@
     return self;
 }
 
-// Override the default implementation
 - (void)setCity:(NSString *)city
 {
+    // City property should be lower case.
     _city = [city lowercaseString];
 }
 

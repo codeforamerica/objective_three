@@ -10,15 +10,6 @@
 
 @implementation ThreeTests
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
 
 - (void)testNormalInit
 {
